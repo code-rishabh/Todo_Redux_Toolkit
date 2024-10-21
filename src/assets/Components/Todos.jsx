@@ -7,7 +7,7 @@ const Todos = () => {
 
   return (
     <>
-      <div>Todos</div>
+      <div className="bg-zinc-600 p-5 w-44 text-center mx-auto mt-12 text-zinc-300 text-xl font-black rounded-xl shadow-xl shadow-neutral-800">TODOs</div>
       <ul className="list-none">
         {todos.map((todo) => (
           <li
